@@ -1,0 +1,9 @@
+str = 'Hello world!'
+let obj={}
+function splitStringToObject (str){
+    for(i=0;i<str.length;i++){
+        obj[str[i]]=i;
+    }
+    return obj;
+}
+console.log(splitStringToObject(str));
